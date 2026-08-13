@@ -124,4 +124,4 @@ O desenvolvimento deste projeto contribuiu para consolidar conhecimentos sobre:
 
 Desenvolvedor Full Stack Júnior
 
-[LinkedIn](https://br.linkedin.com/in/diego-de-melo-0a02b739b) • [GitHub](https://github.com/dimelobarros)
+[LinkedIn](https://br.linkedin.com/in/diego-de-melo-0a02b739b) • [GitHub](https://github.com/diegodemelo)
