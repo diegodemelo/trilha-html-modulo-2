@@ -6,7 +6,7 @@ Projeto desenvolvido como desafio prático de **HTML**, com o objetivo de constr
 
 O projeto faz parte da minha formação complementar em desenvolvimento Front-end pela **DIO** e foi utilizado para praticar **navegação entre páginas, formulários, tabelas, mídias, estruturação de conteúdo e organização visual com CSS**.
 
-🌐 **[Ver projeto online](https://dimelobarros.github.io/trilha-html-modulo-2/)**
+🌐 **[Ver projeto online](https://diegodemelo.github.io/trilha-html-modulo-2/)**
 
 ## Demonstração
 
