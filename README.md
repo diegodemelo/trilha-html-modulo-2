@@ -1,74 +1,127 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# Clínica Vida Plena — Site Institucional
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+### Projeto Front-end | HTML e CSS
 
-Além de outros recursos falados nas aulas!
+Projeto desenvolvido como desafio prático de **HTML**, com o objetivo de construir um site institucional multipágina para uma clínica fictícia e aplicar recursos fundamentais da linguagem em uma estrutura mais completa.
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+O projeto faz parte da minha formação complementar em desenvolvimento Front-end pela **DIO** e foi utilizado para praticar **navegação entre páginas, formulários, tabelas, mídias, estruturação de conteúdo e organização visual com CSS**.
 
-Abaixo como cada página deve ser criada e estruturada.
+🌐 **[Ver projeto online](https://dimelobarros.github.io/trilha-html-modulo-2/)**
 
-### Estrutura das páginas
+## Demonstração
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+### Página inicial
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+![Clínica Vida Plena - página inicial](home.png)
 
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
+### Horários de atendimento
 
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
-
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
-
-3. **Menu** e **Footer** padrões em todas as páginas.
-
+![Clínica Vida Plena - horários de atendimento](horarios.png)
 
 ### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+![Clínica Vida Plena - página de contato](contato.png)
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+---
 
-Bora pra cima!
+## Sobre o projeto
+
+A **Clínica Vida Plena** é um site fictício desenvolvido para representar a estrutura básica de uma página institucional de serviços de saúde.
+
+A aplicação é composta por diferentes páginas conectadas por um menu de navegação, permitindo organizar conteúdos específicos para apresentação da clínica, horários de atendimento e contato.
+
+---
+
+## Páginas
+
+### Página inicial
+
+Apresenta a clínica e funciona como ponto de entrada para as demais áreas do site.
+
+### Sobre
+
+Reúne informações institucionais sobre a clínica.
+
+### Horários
+
+Apresenta os serviços e horários de atendimento por meio de uma tabela estruturada.
+
+### Contato
+
+Disponibiliza informações de contato, localização, mapa incorporado e formulário para envio de mensagens.
+
+---
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- Git
+- GitHub
+- GitHub Pages
+
+---
+
+## Conceitos praticados
+
+O projeto foi utilizado para praticar:
+
+- estruturação de documentos HTML;
+- navegação entre múltiplas páginas;
+- links e menus;
+- formulários;
+- tabelas;
+- imagens e outros elementos de mídia;
+- incorporação de conteúdo com `iframe`;
+- organização de cabeçalho, conteúdo, menu e rodapé;
+- estilização de páginas com CSS.
+
+---
+
+## Estrutura do projeto
+
+```text
+trilha-html-modulo-2/
+├── index.html
+├── sobre.html
+├── horarios.html
+├── contato.html
+├── base.css
+├── logo.png
+├── home.png
+├── sobre.png
+├── horarios.png
+└── contato.png
+```
+
+---
+
+## Objetivo educacional
+
+Este projeto foi desenvolvido como parte do **Módulo 2 da Formação HTML Web Developer da DIO**, com foco na aplicação prática de diferentes recursos fundamentais do HTML.
+
+A proposta foi evoluir de páginas HTML básicas para uma estrutura multipágina capaz de organizar diferentes tipos de conteúdo em uma mesma identidade visual.
+
+---
+
+## Aprendizados
+
+O desenvolvimento deste projeto contribuiu para consolidar conhecimentos sobre:
+
+- organização de sites com múltiplas páginas;
+- reutilização de uma estrutura visual comum;
+- construção de formulários;
+- apresentação de dados com tabelas;
+- incorporação de mapas;
+- navegação entre documentos HTML;
+- integração entre HTML e CSS.
+
+---
+
+## Autor
+
+**Diego de Melo**
+
+Desenvolvedor Full Stack Júnior
+
+[LinkedIn](https://br.linkedin.com/in/diego-de-melo-0a02b739b) • [GitHub](https://github.com/dimelobarros)
